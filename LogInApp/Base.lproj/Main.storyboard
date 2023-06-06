@@ -4,7 +4,6 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -66,7 +65,7 @@
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.97397869829999995" green="0.92688921629999999" blue="0.26356693840000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="QzU-wh-mwa" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="J51-lD-e5I"/>
                             <constraint firstItem="QzU-wh-mwa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="NC6-b0-d3v"/>
@@ -108,14 +107,14 @@
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" title="Log Out"/>
                                         <connections>
-                                            <action selector="logOutButtonPressed" destination="mVP-do-S4O" eventType="touchUpInside" id="KSC-bg-N0T"/>
+                                            <segue destination="flp-PQ-Dcp" kind="unwind" unwindAction="unwindFor:" id="dxM-Az-edS"/>
                                         </connections>
                                     </button>
                                 </subviews>
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="sip-3D-cvS"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="1" green="0.79432529706047894" blue="0.1220632914069657" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="OQG-gl-WPa" firstAttribute="centerY" secondItem="cTw-8G-Reu" secondAttribute="centerY" id="0N7-X3-gbS"/>
                             <constraint firstItem="OQG-gl-WPa" firstAttribute="centerX" secondItem="cTw-8G-Reu" secondAttribute="centerX" id="VXt-QU-FUv"/>
@@ -127,13 +126,9 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uMj-f2-lyL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="flp-PQ-Dcp" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="955" y="4"/>
         </scene>
     </scenes>
-    <resources>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-    </resources>
 </document>
