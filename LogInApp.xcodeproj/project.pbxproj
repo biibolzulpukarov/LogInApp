@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		465E6AB02A2D378B00116D47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465E6AAF2A2D378B00116D47 /* AppDelegate.swift */; };
 		465E6AB22A2D378B00116D47 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465E6AB12A2D378B00116D47 /* SceneDelegate.swift */; };
-		465E6AB42A2D378B00116D47 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465E6AB32A2D378B00116D47 /* ViewController.swift */; };
+		465E6AB42A2D378B00116D47 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465E6AB32A2D378B00116D47 /* LogInViewController.swift */; };
 		465E6AB72A2D378B00116D47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 465E6AB52A2D378B00116D47 /* Main.storyboard */; };
 		465E6AB92A2D378C00116D47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 465E6AB82A2D378C00116D47 /* Assets.xcassets */; };
 		465E6ABC2A2D378C00116D47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 465E6ABA2A2D378C00116D47 /* LaunchScreen.storyboard */; };
+		46F406B92A2E680600DB3610 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F406B82A2E680600DB3610 /* WelcomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		465E6AAC2A2D378B00116D47 /* LogInApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LogInApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		465E6AAF2A2D378B00116D47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		465E6AB12A2D378B00116D47 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		465E6AB32A2D378B00116D47 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		465E6AB32A2D378B00116D47 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		465E6AB62A2D378B00116D47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		465E6AB82A2D378C00116D47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		465E6ABB2A2D378C00116D47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		465E6ABD2A2D378C00116D47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46F406B82A2E680600DB3610 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +60,9 @@
 			children = (
 				465E6AAF2A2D378B00116D47 /* AppDelegate.swift */,
 				465E6AB12A2D378B00116D47 /* SceneDelegate.swift */,
-				465E6AB32A2D378B00116D47 /* ViewController.swift */,
+				465E6AB32A2D378B00116D47 /* LogInViewController.swift */,
 				465E6AB52A2D378B00116D47 /* Main.storyboard */,
+				46F406B82A2E680600DB3610 /* WelcomeViewController.swift */,
 				465E6AB82A2D378C00116D47 /* Assets.xcassets */,
 				465E6ABA2A2D378C00116D47 /* LaunchScreen.storyboard */,
 				465E6ABD2A2D378C00116D47 /* Info.plist */,
@@ -138,7 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				465E6AB42A2D378B00116D47 /* ViewController.swift in Sources */,
+				465E6AB42A2D378B00116D47 /* LogInViewController.swift in Sources */,
+				46F406B92A2E680600DB3610 /* WelcomeViewController.swift in Sources */,
 				465E6AB02A2D378B00116D47 /* AppDelegate.swift in Sources */,
 				465E6AB22A2D378B00116D47 /* SceneDelegate.swift in Sources */,
 			);
@@ -293,8 +297,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,9 +306,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Biibol.LogInApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -321,8 +328,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,9 +337,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Biibol.LogInApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
