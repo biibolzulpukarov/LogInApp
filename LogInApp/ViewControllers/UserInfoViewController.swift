@@ -16,7 +16,6 @@ class UserInfoViewController: UIViewController {
     @IBOutlet var departmentLabel: UILabel!
     @IBOutlet var semesterLabel: UILabel!
     
-    
     var user: User!
 
     override func viewDidLoad() {

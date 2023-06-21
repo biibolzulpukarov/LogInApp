@@ -66,7 +66,7 @@
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" red="0.97397869829999995" green="0.92688921629999999" blue="0.26356693840000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.82098615652145202" green="0.97397869829999995" blue="0.95191808881021678" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="QzU-wh-mwa" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="J51-lD-e5I"/>
                             <constraint firstItem="QzU-wh-mwa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="NC6-b0-d3v"/>
@@ -116,7 +116,7 @@
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="sip-3D-cvS"/>
-                        <color key="backgroundColor" red="1" green="0.79432529706047894" blue="0.1220632914069657" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.81062867885241507" green="0.88261478194806708" blue="0.96470588450000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="OQG-gl-WPa" firstAttribute="centerY" secondItem="cTw-8G-Reu" secondAttribute="centerY" id="0N7-X3-gbS"/>
                             <constraint firstItem="OQG-gl-WPa" firstAttribute="centerX" secondItem="cTw-8G-Reu" secondAttribute="centerX" id="VXt-QU-FUv"/>
@@ -240,7 +240,7 @@
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vMS-Gg-x22"/>
-                        <color key="backgroundColor" red="0.96862745289999996" green="0.79215681550000006" blue="0.26666668059999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.67224339899551178" green="0.96451821517829961" blue="0.96862745289999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="oe0-d2-Gme" firstAttribute="top" secondItem="f3h-hm-oh5" secondAttribute="bottom" constant="40" id="JWh-fH-1QD"/>
                             <constraint firstItem="f3h-hm-oh5" firstAttribute="centerX" secondItem="CQz-uX-YGc" secondAttribute="centerX" id="SDa-UE-h4W"/>
@@ -286,7 +286,7 @@
                             </textView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ORa-vM-Fap"/>
-                        <color key="backgroundColor" red="0.96862745289999996" green="0.79215681550000006" blue="0.26666668059999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.67450982329999998" green="0.96862745289999996" blue="0.96862745289999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="lTj-VA-hFu" firstAttribute="leading" secondItem="ORa-vM-Fap" secondAttribute="leading" constant="16" id="7Ex-5r-Xfx"/>
                             <constraint firstItem="ORa-vM-Fap" firstAttribute="trailing" secondItem="lTj-VA-hFu" secondAttribute="trailing" constant="16" id="UVj-dU-tLU"/>
